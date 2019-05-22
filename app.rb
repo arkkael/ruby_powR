@@ -29,6 +29,5 @@ get '/profile' do
                  )
 
   access_token = JSON.parse(response)['access_token']
-  3.times { print "Hello!" }
   erb :profile
 end
